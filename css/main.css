@@ -1,0 +1,56 @@
+.cancha{
+	background-color: #63CA74;
+	width: 900px;
+	height: 450px;
+	padding: 20px;
+}
+.externa{
+	border:1px solid #fff; 
+	width: 900px;
+	height: 450px;
+	position: relative;
+}
+.izquierda{
+	border-top:1px solid #fff;
+	border-right:1px solid #fff;
+	border-bottom:1px solid #fff; 
+	width: 120px;
+	height: 200px;
+	position: absolute;
+	left:0;
+	top:120px;
+}
+.centro{
+	border:1px solid #fff; 
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	position: absolute;
+    left: 350px;
+    top: 120px;
+}
+.derecha{
+	border-top:1px solid #fff;
+	border-left:1px solid #fff;
+	border-bottom:1px solid #fff; 
+	width: 120px;
+	height: 200px;
+	position: absolute;
+	right: 0;
+	top:120px;
+}
+.una{
+	position: absolute;
+	left: 110px;
+	top:125px;
+}
+.dos{
+	position: absolute;
+    right: 400px;
+    top: 50px;
+}
+.tres{
+	position: absolute;
+	right: 130px;
+	bottom:140px;
+}
